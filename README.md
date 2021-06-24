@@ -4,6 +4,7 @@
 
 **Before beginning:** Read this [lab tutorial](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-tutorial.pdf); it has some useful tips for programming in the C environment and is still useful even though we're using C++ in this class.
 
+
 In this project, you'll build a few different UNIX utilities, simple versions
 of commonly used commands like **cat**, **ls**, etc. We'll call each of them a
 slightly different name to avoid confusion; for example, instead of **cat**,
