@@ -288,9 +288,6 @@ and print out the uncompressed output to standard output using **write()**.
   **wunzip**. 
 
 
-### Footnotes
-
-
 
 
 
