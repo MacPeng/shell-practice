@@ -1,6 +1,6 @@
 # shell-practice
 
-# Unix Utilities
+# This Is About Unix Utilities
 
 **Before beginning:** Read this [lab tutorial](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-tutorial.pdf); it has some useful tips for programming in the C environment and is still useful even though we're using C++ in this class.
 
