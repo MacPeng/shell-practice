@@ -291,10 +291,6 @@ and print out the uncompressed output to standard output using **write()**.
 ### Footnotes
 
 
-<a name="myfootnote1">1</a>: Unfortunately, there is a lot to learn about the
-C library, but at some point, you've just got to **read documentation** to
-
-
 
 
 
