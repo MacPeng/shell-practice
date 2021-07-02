@@ -158,7 +158,6 @@ Finally, when you are done reading and printing, use **close()** to close the
 file (thus indicating you no longer need to read from it).
 
 **Details**
-
 * Your program **wcat** can be invoked with one or more files on the command
   line; it should just print out each file in turn. 
 * In all non-error cases, **wcat** should exit with status code 0, usually by
@@ -190,7 +189,6 @@ even this line, which has barfood in it, will be printed.
 ```
 
 **Details**
-
 * Your program **wgrep** is always passed a search term and zero or
   more files to grep through (thus, more than one is possible). It should go
   through each line and see if the search term is in it; if so, the line
@@ -216,7 +214,6 @@ even this line, which has barfood in it, will be printed.
   can either match NO lines or match ALL lines, both are acceptable.
 
 ## wzip and wunzip
-
 The next tools you will build come in a pair, because one (**wzip**) is a
 file compression tool, and the other (**wunzip**) is a file decompression
 tool. 
@@ -272,7 +269,6 @@ prompt> ./wunzip file.z
 and print out the uncompressed output to standard output using **write()**.
 
 **Details**
-
 * Correct invocation should pass one or more files via the command line to the 
   program; if no files are specified, the program should exit with return code
   1 and print "wzip: file1 [file2 ...]" (followed by a newline) or
@@ -285,8 +281,6 @@ and print out the uncompressed output to standard output using **write()**.
   uncompressed stream of text (thus, the information that multiple files were
   originally input into **wzip** is lost). The same thing holds for
   **wunzip**. 
-
-
 
 
 
