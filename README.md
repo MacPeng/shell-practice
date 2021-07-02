@@ -282,5 +282,3 @@ and print out the uncompressed output to standard output using **write()**.
   originally input into **wzip** is lost). The same thing holds for
   **wunzip**. 
 
-
-
