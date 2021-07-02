@@ -10,6 +10,7 @@ of commonly used commands like **cat**, **ls**, etc. We'll call each of them a
 slightly different name to avoid confusion; for example, instead of **cat**,
 you'll be implementing **wcat** (i.e., "wisconsin" cat).
 
+
 Objectives:
 * Re-familiarize yourself with the C/C++ programming language
 * Re-familiarize yourself with a shell / terminal / command-line of UNIX
@@ -38,7 +39,6 @@ In case you're unfamiliar with Git and GitHub, please see these tutorials:
 * [GitHub / Git Cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)
 
 ## wcat
-
 The program **wcat** is a simple program. Generally, it reads a file as
 specified by the user and prints its contents. A typical usage is as follows,
 in which the user wants to see the contents of main.cpp, and thus types: 
@@ -175,7 +175,6 @@ file (thus indicating you no longer need to read from it).
 
 
 ## wgrep
-
 The second utility you will build is called **wgrep**, a variant of the UNIX
 tool **grep**. This tool looks through a file, line by line, trying to find a
 user-specified search term in the line. If a line has the word within it, the
