@@ -5,25 +5,18 @@
 **Before beginning:** Read this [lab tutorial](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-tutorial.pdf); it has some useful tips for programming in the C environment and is still useful even though we're using C++ in this class.
 
 
-In this project, you'll build a few different UNIX utilities, simple versions
+Build a few different UNIX utilities, simple versions
 of commonly used commands like **cat**, **ls**, etc. We'll call each of them a
 slightly different name to avoid confusion; for example, instead of **cat**,
-you'll be implementing **wcat** (i.e., "wisconsin" cat).
+implementing **wcat** (i.e., "wisconsin" cat).
 
 
 Objectives:
-* Re-familiarize yourself with the C/C++ programming language
-* Re-familiarize yourself with a shell / terminal / command-line of UNIX
+* Re-familiarize with the C/C++ programming language
+* Re-familiarize with a shell / terminal / command-line of UNIX
 * Learn (as a side effect) how to use a proper code editor such as emacs
 * Learn a little about how UNIX utilities are implemented
 
-While the project focuses upon writing simple C++ programs, you can
-see from the above that even that requires a bunch of other previous
-knowledge, including a basic idea of what a shell is and how to use
-the command line on some UNIX-based systems (e.g., Linux or macOS),
-how to use an editor such as emacs, and of course a basic
-understanding of C programming. If you **do not** have these skills
-already, this is not the right place to start.
 
 Summary of what gets turned in:
 * A bunch of single .cpp files for each of the utilities below: **wcat.cpp**,
