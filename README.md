@@ -21,13 +21,11 @@ Objectives:
 Summary of what gets turned in:
 * A bunch of single .cpp files for each of the utilities below: **wcat.cpp**,
   **wgrep.cpp**, **wzip.cpp**, and **wunzip.cpp**.
-* Make sure that your source code uses the **open()**, **read()**, **write()**, and **close()** calls for file, STDOUT, and STDIN I/O
+* Make sure use the **open()**, **read()**, **write()**, and **close()** calls for file, STDOUT, and STDIN I/O
 * Each should compile successfully when compiled with the **-Wall** and
 **-Werror** flags.
-* Each should (hopefully) pass the tests we supply to you.
-* We will also test your code on our own set of test cases that we don't supply.
 
-In case you're unfamiliar with Git and GitHub, please see these tutorials:
+See these tutorials for git instructions:
 * [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 * [GitHub / Git Cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)
 
