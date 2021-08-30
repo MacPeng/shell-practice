@@ -45,9 +45,9 @@ The "**./**" before the **wcat** above is a UNIX thing; it just tells the
 system which directory to find **wcat** in (in this case, in the "." (dot)
 directory, which means the current working directory). 
 
-To create the **wcat** binary, you'll be creating a single source file,
+To create the **wcat** binary
 **wcat.cpp**, and writing a little C++ code to implement this simplified version
-of **cat**. To compile this program, you will do the following:
+of **cat**. To compile this program, will do the following:
 
 ```
 prompt> g++ -o wcat wcat.cpp -Wall -Werror
@@ -61,13 +61,11 @@ You'll need to learn how to use a few library routines from the C++ standard
 library (often called **libc++**) to implement the source code for this program,
 which we'll assume is in a file called **wcat.cpp**. All C++ code is
 automatically linked with the C++ library, which is full of useful functions you
-can call to implement your program.
+can call to implement the program.
 
-For this project, you are _required_ to use the following routines to do
+For this project,_required_ to use the following routines to do
 file input and output: **open**, **read**, **write**, and
-**close**. Whenever you use a new function like this, the first
-thing you should do is read about it -- how else will you learn to use
-it properly?
+**close**. 
 
 On UNIX systems, the best way to read about such functions is to use what are
 called the **man** pages (short for **manual**). In our HTML/web-driven world,
